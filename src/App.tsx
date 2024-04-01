@@ -3,7 +3,7 @@ import Home from './pages/Home';
 
 const App = () => {
   return (
-    <div style={{ display: "flex", height: "100vh" }}>
+    <div>
       <Home />
     </div>
   );
