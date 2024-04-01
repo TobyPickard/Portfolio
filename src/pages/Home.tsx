@@ -4,10 +4,10 @@ import TopNavbar from "../Components/Navbar"
 
 function Home() {
     return (
-        <div>
+        <>
             <TopNavbar />
-        </div>
+        </>
     )
 }
 
-export default Home
+export default Home;
