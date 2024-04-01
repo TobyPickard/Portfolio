@@ -1,5 +1,4 @@
-import { Dialog, DialogContent, DialogTitle } from "@material-ui/core";
-import { Button, Chip, DialogActions, Divider, Grid, Typography } from "@mui/material";
+import { Button, Chip, Dialog, DialogContent, DialogTitle, DialogActions, Divider, Grid, Typography } from "@mui/material";
 import ProjectDialogProps from "../Interfaces/ProjectDialogProps";
 
 const ProjectDialog: React.FC<ProjectDialogProps> = ({ project, open, onClose }) => {

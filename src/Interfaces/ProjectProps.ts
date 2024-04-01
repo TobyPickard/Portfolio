@@ -7,4 +7,4 @@ interface ProjectProps {
     status: string
 }
 
-export default ProjectProps
+export default ProjectProps;
