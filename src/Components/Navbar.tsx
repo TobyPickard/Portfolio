@@ -17,7 +17,7 @@ const TopNavbar = () => {
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                 <a href='/' style={{color: 'white'}}>Toby Pickard</ a>
             </Typography>
-            <Button href='/' style={{color: 'white'}}>
+            <Button onClick={() => handleClick('hello')} style={{color: 'white'}}>
                 Home
             </Button>
             <Button onClick={() => handleClick('about')} style={{color: 'white'}}>
