@@ -4,10 +4,10 @@ import Hello from "./Hello";
 
 function Home() {
     return (
-        <>
+        <div>
             <TopNavbar />
             <Hello />
-        </>
+        </div>
     )
 }
 
