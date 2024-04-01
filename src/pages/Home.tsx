@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import TopNavbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import Hello from "./Hello";
 
 function Home() {
@@ -7,6 +8,8 @@ function Home() {
         <div>
             <TopNavbar />
             <Hello />
+
+            <Footer />
         </div>
     )
 }
