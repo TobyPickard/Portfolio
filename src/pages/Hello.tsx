@@ -1,4 +1,4 @@
-// import { Button } from "@mui/material";
+import { Button } from "@mui/material";
 
 const Hello = () => {
     // const handleClick = () => {
@@ -13,6 +13,7 @@ const Hello = () => {
             <h1 style={{ paddingTop: '50px', display:'flex', justifyContent: 'center', alignItems:'center'}}>Hello</h1>
             <div style={{ display:'flex', justifyContent: 'center', alignItems:'center', paddingBottom: '50px'}}>
                 <button>Testing something</button>
+                <Button>Testing something</Button>
             </div>
         </div>
     );
