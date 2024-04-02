@@ -8,7 +8,7 @@ const ListProject = () => {
     const [isDialogOpen, setIsDialogOpen] = useState(false);
 
     const projects =[
-        {id:0, name: 'Portfolio', description: 'This is a project to make a web application to personal portfolio.', stack: 'Python,React.js,AWS,Git', github: 'https://github.com/TobyPickard/portfolio.git', status: 'Complete'},
+        {id:0, name: 'Portfolio', description: 'This is a project to make a web application to personal portfolio.', stack: 'React.js,Git', github: 'https://github.com/TobyPickard/portfolio.git', status: 'Complete'},
         {id:1, name: 'proj1', description: 'This is a short description', stack: 'Java,Python,AWS', github: 'Github URL', status: 'In Progress'},
     ]
 
