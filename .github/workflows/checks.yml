@@ -3,7 +3,7 @@ name: Checks
 on:
   push:
     branches-ignore:
-      - 'main'
+      - main
 
 jobs:
   build: 
