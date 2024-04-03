@@ -11,14 +11,8 @@ const InfoCard: React.FC<CardProps> = ({ title, lines }) => {
                             {title}
                         </Typography>
                         {lines.map((item) => (
-                            <Typography variant="body1">{item}</Typography>
+                            <Typography variant="body1" color="text.secondary">{item}</Typography>
                         ))}
-                        {/* <Typography variant="body1">
-                            Application Developer
-                        </Typography>
-                        <Typography variant="body1">
-                            2020 - Present
-                        </Typography> */}
                     </div>
                 </div>
             </CardContent>

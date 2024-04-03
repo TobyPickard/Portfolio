@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 
 const Hello = () => {
     const handleClick = () => {
@@ -10,9 +10,13 @@ const Hello = () => {
 
     return (
         <div id='hello'>
-            <h1 style={{ paddingTop: '50px', display:'flex', justifyContent: 'center', alignItems:'center'}}>Hello</h1>
-            <div style={{ display:'flex', justifyContent: 'center', alignItems:'center', paddingBottom: '50px'}}>
-                <Button onClick={handleClick}>Projects</ Button>
+            <div style={{ height: '90vh', paddingTop: '50px', display:'flex', justifyContent: 'center', alignItems:'center' }}>
+                <div>
+                    <Typography variant="h2" style={{ fontWeight: 'bold' }}>Hello</Typography>
+                    <div style={{ display:'flex', justifyContent: 'center', alignItems:'center' }}>
+                        <Button onClick={handleClick}>Projects</ Button>
+                    </div>
+                </div>
             </div>
         </div>
     );

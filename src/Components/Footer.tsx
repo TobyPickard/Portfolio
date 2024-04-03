@@ -3,12 +3,12 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import FacebookIcon from '@mui/icons-material/Facebook'
-import { Divider, Grid, IconButton, Typography } from '@mui/material';
+import { AppBar, Divider, Grid, IconButton, Toolbar, Typography } from '@mui/material';
 
 const Footer = () => {
     return (
         <footer style={{ backgroundColor: '#333', color: 'white', padding: '20px', textAlign: 'center' }}>
-            <Grid container spacing={4} style={{ paddingBottom: '50px', paddingTop: '50px', paddingLeft: '30px'}}>
+            <Grid container style={{ padding: '100px' }}>
                 <Grid item xs={6}>
                     <div style={{ textAlign: 'left' }}>
                         <Typography variant="h5" style={{ paddingBottom: '20px' }}>
@@ -20,8 +20,7 @@ const Footer = () => {
                         </Typography>
                     </div>
                 </Grid>
-                <Grid item xs={2} />
-                <Grid item xs={4}>
+                <Grid item xs={6}>
                     <div style={{ textAlign: 'left' }}>
                         <Typography variant="h5" style={{ paddingBottom: '20px' }}>
                             Socials
@@ -49,5 +48,17 @@ const Footer = () => {
         </footer>
     );
 }
+
+// const Footer = () => {
+//     return (
+//         <AppBar position='static' color='primary'>
+//             <Toolbar>
+//                 <Typography variant="body1" color="inherit">
+//                 © {new Date().getFullYear()} Your Website Name
+//                 </Typography>
+//             </Toolbar>
+//         </AppBar>
+//     )
+// };
 
 export default Footer;

@@ -7,6 +7,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <div style={{width: '100vw', height: '100vh', overflowY: 'auto'}} >
     <React.StrictMode>
       <App />
-    </React.StrictMode>,
+    </React.StrictMode>
   </div>
 )

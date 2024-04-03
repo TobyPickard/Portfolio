@@ -23,8 +23,8 @@ const ListProject = () => {
 
     return (
         <div style={{ backgroundColor: 'lightblue' }} id="projects">
-        <div style={{display:'flex', justifyContent: 'center', alignItems:'center'}}>
-            <h1>Personal Projects</h1>
+        <div style={{ padding: '50px', display:'flex', justifyContent: 'center', alignItems:'center' }}>
+            <Typography variant="h2" style={{ fontWeight: 'bold' }}>Personal Projects</Typography>
         </div>
         {/* Add content for the Add page */}
         <Grid container>
